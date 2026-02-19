@@ -29,3 +29,5 @@ Route::get('/world', function () {
 });
 
 Route::get('/hello', [WelcomeController::class, 'hello']);
+
+Route::get('/greeting', [WelcomeController::class, 'greeting']);
